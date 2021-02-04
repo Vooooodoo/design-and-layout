@@ -1,3 +1,17 @@
 .intro__image {
   margin-right: 130px;
 }
+
+@media all and (max-width: 1023px) {
+	.intro__image {    
+    margin-right: 50px;
+    width: 298px;
+    height: 195px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro__image {    
+    margin: 0 0 50px;
+  }
+}

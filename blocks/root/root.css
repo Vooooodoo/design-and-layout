@@ -11,3 +11,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+@media all and (max-width: 1023px) {
+	.root {    
+    padding: 0 30px;
+  }
+}

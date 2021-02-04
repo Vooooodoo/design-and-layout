@@ -11,3 +11,16 @@
   background-color: #EEEFF1;
   padding: 0 60px 140px;
 }
+
+@media all and (max-width: 1023px) {
+	.intro {    
+    margin: 0 -30px;
+    padding: 0 30px 95px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro {    
+    flex-direction: column;
+  }
+}
