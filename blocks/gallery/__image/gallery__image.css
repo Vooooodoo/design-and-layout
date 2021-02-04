@@ -2,10 +2,12 @@
   width: 100%;
 }
 
-.gallery__image:nth-of-type(2) {
-  order: -1;
-}
+@media all and (max-width: 767px) {
+  .gallery__image:nth-of-type(2) {
+    order: -1;
+  }
 
-.gallery__image:nth-of-type(7) {
-  order: 1;
+  .gallery__image:nth-of-type(7) {
+    order: 1;
+  }
 }
