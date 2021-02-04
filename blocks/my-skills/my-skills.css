@@ -1,0 +1,14 @@
+@import url(./__container/my-skills__container.css);
+@import url(./__title/my-skills__title.css);
+@import url(./__text/my-skills__text.css);
+@import url(./__line/my-skills__line.css);
+@import url(./__image/my-skills__image.css);
+
+.my-skills {
+  display: flex;
+  padding: 100px 0;
+  max-width: 1120px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}

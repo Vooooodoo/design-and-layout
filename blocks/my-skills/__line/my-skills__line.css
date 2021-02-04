@@ -1,0 +1,18 @@
+.my-skills__line {
+  position: relative;
+  height: 4px;
+  background-color: #C4C4C4;
+  margin-bottom: 30px;
+}
+
+.my-skills__line::before {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 100%;
+  background-color: #34547A;
+}
+
+.my-skills__line:last-child {
+  margin-bottom: 0;
+}
