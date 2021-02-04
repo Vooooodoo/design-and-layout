@@ -1,0 +1,27 @@
+.how-i-work__video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  background-image: url(../../../images/how-i-work__video.jpg);
+  max-width: 1110px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.how-i-work__video::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  opacity: .1;
+  transition: .2s linear;
+}
+
+.how-i-work__video:hover::before {
+  opacity: .8;
+}
