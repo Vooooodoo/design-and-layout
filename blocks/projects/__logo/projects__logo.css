@@ -1,9 +1,3 @@
 .projects__logo {
   margin-right: 20px;   
 }
-
-@media all and (max-width: 1221px) {
-	.projects__logo {    
-    margin-bottom: 80px;
-  }
-}
