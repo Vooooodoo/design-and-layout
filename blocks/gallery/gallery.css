@@ -1,0 +1,20 @@
+@import url(./__image/gallery__image.css);
+
+.gallery {
+  max-width: 1920px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 -60px;
+}
+
+@media all and (max-width: 1023px) {
+  .gallery {
+    margin: 0 -30px;      
+  }
+}
+
+@media all and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);      
+  }
+}
