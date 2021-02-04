@@ -1,3 +1,10 @@
 .how-i-work__logo {
   z-index: 1;
 }
+
+@media all and (max-width: 767px) {
+  .how-i-work__logo {
+    width: 75px;
+    height: 75px;
+  }
+}

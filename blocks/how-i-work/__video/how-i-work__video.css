@@ -8,6 +8,8 @@
   max-width: 1110px;
   height: 600px;
   cursor: pointer;
+  background-size: cover;
+  background-position: center;
 }
 
 .how-i-work__video::before {
@@ -24,4 +26,16 @@
 
 .how-i-work__video:hover::before {
   opacity: .8;
+}
+
+@media all and (max-width: 1229px) {
+  .how-i-work__video {
+    height: calc(600 / 1110 * (100vw - 120px));
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .how-i-work__video {
+    height: calc(600 / 1110 * (100vw - 60px));
+  }
 }
