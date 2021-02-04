@@ -1,14 +1,6 @@
 .projects__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   max-width: 1096px;
   margin: 0 auto;
-}
-
-@media all and (max-width: 1221px) {
-	.projects__container {    
-    max-width: 550px;
-  }
 }
