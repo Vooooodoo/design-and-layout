@@ -1,3 +1,11 @@
 .gallery__image {
   width: 100%;
 }
+
+.gallery__image:nth-of-type(2) {
+  order: -1;
+}
+
+.gallery__image:nth-of-type(7) {
+  order: 1;
+}
