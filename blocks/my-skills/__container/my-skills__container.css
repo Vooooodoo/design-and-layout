@@ -1,3 +1,13 @@
 .my-skills__container {
   flex-basis: 445px;
+  margin-right: 50px;
+}
+
+@media all and (max-width: 767px) {
+  .my-skills__container {
+    order: 1;
+    flex-basis: auto;
+    width: 100%;
+    margin: 0;
+  }
 }

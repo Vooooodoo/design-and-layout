@@ -5,3 +5,9 @@
   color: black;
   margin: 0 0 50px;
 }
+
+@media all and (max-width: 767px) {
+  .my-skills__title {
+    text-align: center;
+  }
+}

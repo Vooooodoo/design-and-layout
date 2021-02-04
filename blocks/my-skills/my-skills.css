@@ -7,8 +7,20 @@
 .my-skills {
   display: flex;
   padding: 100px 0;
-  max-width: 1120px;
+  max-width: 1110px;
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
+}
+
+@media all and (max-width: 1023px) {
+  .my-skills {
+    padding: 80px 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .my-skills {
+    flex-direction: column;
+  }
 }
