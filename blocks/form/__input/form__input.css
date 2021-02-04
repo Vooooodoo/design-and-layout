@@ -1,0 +1,13 @@
+.form__input {
+  height: 50px;
+  margin: 0 0 20px;
+  margin-right: 30px;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  max-width: 255px;
+}
+
+.form__input:last-of-type {
+  margin-right: 0;
+}
