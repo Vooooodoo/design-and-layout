@@ -1,0 +1,11 @@
+@import url(./__container/projects__container.css);
+@import url(./__logo/projects__logo.css);
+@import url(./__text/projects__text.css);
+@import url(./__large-text/projects__large-text.css);
+@import url(./__small-text/projects__small-text.css);
+
+.projects {
+  background-color: #34547A;
+  padding: 100px 60px;
+  margin: 100px -60px 0;
+}
