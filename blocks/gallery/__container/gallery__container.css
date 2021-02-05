@@ -2,3 +2,14 @@
   position: relative;
   line-height: 0;
 }
+
+
+@media all and (max-width: 767px) {
+  .gallery__container:nth-child(2) {
+    order: -1;
+  }
+
+  .gallery__container:nth-child(7) {
+    order: 1;
+  }
+}
