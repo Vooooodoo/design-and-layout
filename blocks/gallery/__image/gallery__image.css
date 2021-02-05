@@ -1,31 +1,3 @@
 .gallery__image {
-  position: relative;
   width: 100%;
-}
-
-.gallery__image::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(52, 84, 122, .8);
-  opacity: 1;
-  transition: .2s linear;
-  z-index: 1;
-}
-
-.gallery__image:hover::before {
-  opacity: 1;
-}
-
-@media all and (max-width: 767px) {
-  .gallery__image:nth-of-type(2) {
-    order: -1;
-  }
-
-  .gallery__image:nth-of-type(7) {
-    order: 1;
-  }
 }

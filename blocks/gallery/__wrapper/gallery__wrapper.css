@@ -1,0 +1,17 @@
+.gallery__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(52, 84, 122, .8);
+  opacity: 0;
+  z-index: 1;  
+  transition: .2s linear;
+  cursor: pointer;
+}
+
+.gallery__wrapper:hover {
+  opacity: 1;
+}
