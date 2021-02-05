@@ -3,3 +3,10 @@
   font-size: 21px;
   line-height: 25px;
 }
+
+@media all and (max-width: 374px) {
+	.projects__large-text {    
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -7,13 +7,13 @@
 
 .header {
   background-color: #EEEFF1;
-  padding: 60px 60px 150px;
-  margin: 0 -60px;
+  padding-top: 60px;
+  padding-bottom: 150px;
 }
 
 @media all and (max-width: 1023px) {
 	.header {    
-    padding: 30px 30px 70px;
-    margin: 0 -30px;
+    padding-top: 30px 70px;
+    padding-bottom: 70px;
   }
 }
