@@ -7,6 +7,8 @@
 
 .my-skills__line::before {
   position: absolute;
+  top: 0;
+  left: 0;
   content: '';
   width: 80%;
   height: 100%;
