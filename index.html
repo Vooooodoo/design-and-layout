@@ -30,21 +30,21 @@
               </li>                      
           
               <li class="header__list-item">
-                <a class="header__link" href="#order">контакты</a>
+                <a class="header__link" href="#footer">контакты</a>
               </li>                        
             </ul>
           </nav>
         </div>        
       </header>
 
-      <main class="content">
+      <main>
         <section class="intro">
           <img class="intro__image" src="./images/intro__image.svg" alt="Очертания html кода на экране ноутбука.">
           
           <div class="intro__container">
             <h1 class="intro__title">Дизайн и верстка</h1>
             <p class="intro__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <a href="#">
+            <a href="#order">
               <button class="button" type="button">написать мне</button>
             </a>
           </div>
@@ -138,7 +138,12 @@
         </section>
 
         <section id="gallery" class="gallery">
-          <img class="gallery__image" src="./images/gallery__image_name_notes.jpg" alt="Записки на стене.">
+          <div class="gallery__container">
+            <img class="gallery__image" src="./images/gallery__image_name_notes.jpg" alt="Записки на стене.">
+            <div class="gallery__wrapper">
+              <img src="./images/gallery__logo.svg" alt="Контур глаза.">
+            </div>
+          </div>
           <img class="gallery__image" src="./images/gallery__image_name_notebook.jpg" alt="Человек работает за ноутбуком.">
           <img class="gallery__image" src="./images/gallery__image_name_notes.jpg" alt="Записки на стене.">
           <img class="gallery__image" src="./images/gallery__image_name_notebook.jpg" alt="Человек работает за ноутбуком.">
@@ -168,7 +173,7 @@
         </section>
       </main>
 
-      <footer class="footer">
+      <footer id="footer" class="footer">
         <div class="footer__container">
           <div>
             <h2 class="footer__title">Андруханенко Роман</h2>
