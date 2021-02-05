@@ -1,13 +1,13 @@
 @import url(./__title/gallery__title.css);
 @import url(./__container/gallery__container.css);
 @import url(./__image/gallery__image.css);
-@import url(./__wrapper/gallery__wrapper.css);
+@import url(./__overlay/gallery__overlay.css);
 
 .gallery {
   position: relative;
   max-width: 1920px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: center;
   margin: 0 -60px;
 }
 
@@ -19,6 +19,6 @@
 
 @media all and (max-width: 767px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);      
+    flex-direction: column;     
   }
 }

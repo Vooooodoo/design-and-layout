@@ -1,4 +1,4 @@
-.gallery__wrapper {
+.gallery__overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,6 @@
   cursor: pointer;
 }
 
-.gallery__wrapper:hover {
+.gallery__overlay:hover {
   opacity: 1;
 }

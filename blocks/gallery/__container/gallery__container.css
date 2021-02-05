@@ -1,15 +1,11 @@
 .gallery__container {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  line-height: 0;
 }
 
-
 @media all and (max-width: 767px) {
-  .gallery__container:nth-child(3) {
-    order: -1;
-  }
-
-  .gallery__container:nth-child(8) {
-    order: 1;
+  .gallery__container {
+    flex-direction: row;
   }
 }

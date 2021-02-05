@@ -1,6 +1,6 @@
 .button {
-  width: 225px;
-  height: 65px;
+  min-width: 225px;
+  min-height: 65px;
   background-color: #34547A;
   border: none;
   font-weight: normal;
