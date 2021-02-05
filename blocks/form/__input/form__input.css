@@ -3,13 +3,18 @@
   margin: 0 0 20px;
   margin-right: 30px;
   padding: 20px;
-  border: none;
+  max-width: 251px;
   box-sizing: border-box;
-  max-width: 255px;
+  border: 2px solid transparent;
 }
 
 .form__input:last-of-type {
   margin-right: 0;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 2px solid #34547A;
 }
 
 @media all and (max-width: 767px) {
