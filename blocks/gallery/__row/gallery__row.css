@@ -1,0 +1,10 @@
+.gallery__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 767px) {
+  .gallery__row {
+    flex-direction: column;     
+  }
+}
