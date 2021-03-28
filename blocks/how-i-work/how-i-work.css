@@ -1,0 +1,15 @@
+@import url(./__video/how-i-work__video.css);
+@import url(./__button/how-i-work__button.css);
+
+.how-i-work {
+  background-color: #EEEFF1;  
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media all and (max-width: 1023px) {
+  .how-i-work {
+    padding-top: 80px;
+    padding-bottom: 80px;    
+  }
+}

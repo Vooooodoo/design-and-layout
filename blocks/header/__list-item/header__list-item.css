@@ -1,0 +1,9 @@
+.header__list-item {
+  display: inline;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.header__list-item:last-of-type {
+  margin-right: 0;
+}

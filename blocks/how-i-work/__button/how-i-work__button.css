@@ -1,0 +1,19 @@
+.how-i-work__button {
+  background-image: url(../../../images/how-i-work__button.svg);
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  cursor: pointer;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+@media all and (max-width: 767px) {
+  .how-i-work__button {
+    width: 75px;
+    height: 75px;
+  }
+}

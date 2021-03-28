@@ -1,0 +1,20 @@
+@import url(./__container/projects__container.css);
+@import url(./__item/projects__item.css);
+@import url(./__logo/projects__logo.css);
+@import url(./__text/projects__text.css);
+@import url(./__large-text/projects__large-text.css);
+@import url(./__small-text/projects__small-text.css);
+
+.projects {
+  position: relative;
+  background-color: #34547A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media all and (max-width: 1023px) {
+	.projects {    
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}

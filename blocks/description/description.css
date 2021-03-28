@@ -1,0 +1,7 @@
+@import url(./__title/description__title.css);
+@import url(./__subtitle/description__subtitle.css);
+
+.description {
+  max-width: 540px;
+  margin: 0 auto;
+}

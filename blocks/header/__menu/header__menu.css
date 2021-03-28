@@ -1,0 +1,5 @@
+@media all and (max-width: 685px) {
+  .header__menu {
+    display: none;
+  }
+}

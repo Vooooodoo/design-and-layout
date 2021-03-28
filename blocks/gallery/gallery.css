@@ -1,0 +1,14 @@
+@import url(./__row/gallery__row.css);
+@import url(./__container/gallery__container.css);
+@import url(./__image/gallery__image.css);
+@import url(./__overlay/gallery__overlay.css);
+
+.gallery {
+  position: relative;
+  padding: 30px 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}

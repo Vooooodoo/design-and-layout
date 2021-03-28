@@ -1,0 +1,28 @@
+@import url(./__container/my-skills__container.css);
+@import url(./__title/my-skills__title.css);
+@import url(./__text/my-skills__text.css);
+@import url(./__line/my-skills__line.css);
+@import url(./__image/my-skills__image.css);
+
+.my-skills {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 1110px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media all and (max-width: 1023px) {
+  .my-skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .my-skills {
+    flex-direction: column;
+  }
+}
